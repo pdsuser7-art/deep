@@ -1,0 +1,6 @@
+{
+  "name": "CompVantage IN",
+  "description": "Enterprise Sales Compensation, Incentive Engine & Excel Calculation Grid with Indian TDS 194H withholding and sales rollover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

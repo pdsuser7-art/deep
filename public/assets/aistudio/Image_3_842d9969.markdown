@@ -1,0 +1,224 @@
+---
+name: Apex Ledger SPM
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#434655'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#737686'
+  outline-variant: '#c3c6d7'
+  surface-tint: '#0053db'
+  primary: '#004ac6'
+  on-primary: '#ffffff'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#b4c5ff'
+  secondary: '#006c4a'
+  on-secondary: '#ffffff'
+  secondary-container: '#82f5c1'
+  on-secondary-container: '#00714e'
+  tertiary: '#4d556b'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#656d84'
+  on-tertiary-container: '#eef0ff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#85f8c4'
+  secondary-fixed-dim: '#68dba9'
+  on-secondary-fixed: '#002114'
+  on-secondary-fixed-variant: '#005137'
+  tertiary-fixed: '#dae2fd'
+  tertiary-fixed-dim: '#bec6e0'
+  on-tertiary-fixed: '#131b2e'
+  on-tertiary-fixed-variant: '#3f465c'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  headline-xl:
+    fontFamily: Hanken Grotesk
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Hanken Grotesk
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+  metric-mono-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.02em
+  metric-mono-md:
+    fontFamily: JetBrains Mono
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  metric-mono-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+The design system targets revenue leaders, sales compensation administrators, and commercial executives operating within high-growth Indian enterprises. The core visual philosophy pairs enterprise rigor with executive clarity: high-density financial metrics must remain instantly parseable, trustworthy, and actionable.
+
+The aesthetic blends **Modern Corporate Precision** with subtle **Refined Glass Elevation**. It emphasizes structured tabular grids, crisp structural boundaries, and disciplined informational hierarchy over decorative excess. The UI projects mathematical precision, operational authority, and transparent financial governance—evoking the reliability of a tier-1 banking terminal alongside the responsiveness of modern analytical software.
+
+## Colors
+The palette is built around executive contrast and rigorous semantic validation:
+
+- **Foundation & Surfaces**: 
+  - Primary Canvas: `#F8FAFC` (Slate 50) establishes a soft, anti-glare operational foundation.
+  - Card & Table Canvas: `#FFFFFF` (Pure White) provides clinical contrast for numeric data.
+  - Sub-surfaces & Metric wells: `#F1F5F9` (Slate 100).
+- **Core Tonal Spine**:
+  - Ink Primary (Headings, critical totals): `#0F172A` (Slate 900).
+  - Ink Secondary (Table headers, structural labels): `#334155` (Slate 700).
+  - Ink Tertiary (Footers, inactive metadata): `#64748B` (Slate 500).
+  - Structural Borders: `#E2E8F0` (Slate 200) for standard partitions; `#CBD5E1` (Slate 300) for grid dividers.
+- **Accents & Telemetry**:
+  - Primary Brand & Action: `#2563EB` (Royal Blue) driving primary navigation, bulk recalculations, and active focal states.
+  - Performance & Target Surplus: `#059669` (Emerald 600 base) with `#10B981` (Emerald 500 accent) reserved strictly for revenue goal completion, incentive payouts, quota overachievement, and positive delta adjustments.
+  - Alert & Deficit: `#DC2626` (Red 600) for quota shortfalls, clawbacks, and validation discrepancies.
+  - Carryover & Pending: `#D97706` (Amber 600) for pipeline holds, unapproved overrides, and rollover balances.
+
+## Typography
+Typography is split into two specialized roles:
+1. **Primary Interface (`Hanken Grotesk`)**: Provides razor-sharp, geometric legibility across UI components, executive summaries, target hierarchies, and form controls.
+2. **Numeric & Formula Layer (`JetBrains Mono`)**: Mandated for currency figures (INR `₹`), commission percentages, multiplier bands, calculation logic expressions, and data grid cells. The monospaced width eliminates column jitter during live data feeds and allows frictionless vertical visual scanning across large matrices.
+
+Indian numerical formatting conventions (e.g., `₹12,45,000.00` with Lakhs and Crores) must always align to tabular numerical figures with right-alignment in data matrices.
+
+## Layout & Spacing
+The layout adheres to a 12-column adaptive fluid grid engineered for dense, calculation-intensive dashboards:
+
+- **Desktop (1280px+)**: 12 columns with `1.5rem` gutters and `2rem` safe outer margins. Maximizes horizontal space to accommodate multi-tiered commission tiers, rep lists, and monthly actual vs. target breakdowns side by side.
+- **Tablet (768px - 1279px)**: 8 columns with `1rem` gutters and `1.5rem` margins. Complex tables shift to sticky left identifier columns (Rep ID / Tier) with horizontally scrollable metric cells.
+- **Mobile (<768px)**: 4 columns with `1rem` margins and `0.75rem` gutters. Metric cards collapse to stacked KPI units with micro-charts.
+
+Spatial rhythm leans compact (`space-xs` = 4px, `space-sm` = 8px, `space-md` = 12px) within data surfaces to optimize vertical viewable real estate for enterprise analysts.
+
+## Elevation & Depth
+Depth is established primarily through **structured micro-borders and soft ambient shadows**, avoiding heavy blur traps that degrade data density:
+
+- **Base Level (Canvas)**: `#F8FAFC` flat surface.
+- **Surface Level 1 (KPI Panels & Data Containers)**: Crisp solid background (`#FFFFFF`) framed by a 1px border (`#E2E8F0`). Subdued elevation: `0 1px 3px 0 rgba(15, 23, 42, 0.05)`.
+- **Surface Level 2 (Modals, Formula Editors, Active Row Drawer)**: Refined frosted backdrop blur (`backdrop-filter: blur(8px)`) over `#FFFFFF` with a 1px border (`#CBD5E1`) and directional elevation: `0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.03)`.
+- **Surface Level 3 (Context Menus, Formula Tooltips)**: `#0F172A` deep solid tone with zero backdrop blur, contrasting against light data grids for instantaneous focus: `0 20px 25px -5px rgba(15, 23, 42, 0.15)`.
+
+## Shapes
+A disciplined **Soft (`roundedness: 1`)** standard is enforced across the system:
+- Controls, table rows, and compact metric chips utilize `0.25rem` (4px) radii.
+- Executive KPI cards, modal sheets, and data grid outer wrappers use `0.5rem` (8px, `rounded-lg`).
+- Tab pills and numeric status markers utilize strict rectangular or subtle 4px corner radii—circular pill styles are strictly prohibited to maintain architectural stability and high tabular density.
+
+## Components
+
+### Buttons
+- **Primary**: Solid `#2563EB` fill, `#FFFFFF` text, 4px border radius, 36px standard height (`space-sm` vertical, `space-md` horizontal padding). Focus ring: 2px offset with `#93C5FD`.
+- **Secondary / Action**: `#FFFFFF` background, 1px solid `#CBD5E1`, text `#0F172A`. Hover: `#F8FAFC`.
+- **Export / Action Bar**: Monospaced utility triggers with 1px borders, incorporating export icons alongside plain Indian currency signifiers.
+
+### Data Tables (High-Density Excel Style)
+- **Header Cell**: 32px height, `#F1F5F9` background, uppercase `#334155` text at `label-sm`, bottom border 2px solid `#CBD5E1`.
+- **Data Cell**: 36px height, compact 8px horizontal padding, 1px bottom border `#E2E8F0`. Tabular monospaced font for figures.
+- **Zebra & Hover**: Alternating `#FFFFFF` and `#FBFDFE`; row hover highlights in `#EFF6FF` (Royal Tint) with a 2px left border accent in `#2563EB`.
+
+### Metric Chips & Status Indicators
+- **Achievement Surplus**: Background `#ECFDF5`, text `#065F46`, border 1px solid `#A7F3D0`. Prepended with upward delta indicator (`+14.2%`).
+- **Deficit / Clawback**: Background `#FEF2F2`, text `#991B1B`, border 1px solid `#FECACA`.
+- **Carryover / Hold**: Background `#FFFBEB`, text `#92400E`, border 1px solid `#FDE68A`.
+
+### Formula & Rule Builder
+- Visual rule canvas blocks enclosed in 1px `#CBD5E1` containers, using `#F8FAFC` headers. 
+- Math operators (`+`, `-`, `*`, `MIN`, `MAX`) rendered in dark slate tags (`#0F172A`) with monospaced text to emphasize structural integrity.
+
+### Input Fields & Selects
+- Height: 36px. Border: 1px solid `#CBD5E1`. Focus: `#2563EB` border with 0 0 0 1px outline. 
+- Integrated currency adornment: Hardcoded `₹` prefix locked in `#64748B` on the leading inline edge.
